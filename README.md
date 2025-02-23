@@ -27,8 +27,6 @@ Audio Duck is a smart browser extension designed to enhance your multitasking ex
 
 ---
 
-## Installation 🚀
-
 ## Installation for Chrome 🚀
 
 1. **Download the Files**:
