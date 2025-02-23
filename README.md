@@ -1,8 +1,8 @@
 <div align="center">
-# Audio Duck 
+  <h1>Audio Duck</h1>
+</div>
 
-
-
+<div align="center">
   <img src="duck-icon.png" alt="Duck Icon" width="200">
 </div>
 
