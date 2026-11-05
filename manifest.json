@@ -5,7 +5,8 @@
   "description": "Automatically detect and manage audio ducking between voice and music tabs.",
   "permissions": [
     "tabs",
-    "scripting"
+    "scripting",
+    "storage"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -20,5 +21,12 @@
       "48": "icon48.png",
       "128": "icon128.png"
     }
+  },
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["detector.js"],
+    "run_at": "document_start"
   }
+]
 }
